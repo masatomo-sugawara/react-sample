@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColofulMessage = (props) => {
+export const ColorfulMessage = (props) => {
   // console.log(props);
   const { color, children } = props;
   const contentStyle = {
@@ -11,4 +11,4 @@ const ColofulMessage = (props) => {
   return <p style={contentStyle}>{children}</p>;
 };
 
-export default ColofulMessage;
+//export default ColofulMessage;
